@@ -84,7 +84,7 @@
   \resumeSubHeadingListStart
     \resumeSubheading
       {University of British Columbia}{Vancouver, BC, Canada}
-      {Master of Applied Science in Computer Engineering;  Percentage: 88.5 }{Sept. 2017 -- Present}
+      {Master of Applied Science in Computer Engineering;  Percentage: 88.5\% }{Sept. 2017 -- Present}
     \resumeSubheading
       {Manipal Institute of Technology}{Manipal, India}
       {Bachelor of Technology in Computer Science;  GPA: 8.86/10.0 }{June. 2011 -- July. 2015}
@@ -100,69 +100,73 @@
       {Research and Teaching Assistant}{Sept 2017 - Present}
       \resumeItemListStart
         \resumeItem{Research Assistant - Distributed Cloud Native Systems}
-          {Research on cluster schedulers for microservices applications. Modeling inter-dependencies between services \& strategies to improve performance and resource utilization in shared clusters. Currently developing a extension to Kubernetes to work with devops pipelines in public clouds.}
+          {Participated in research on cluster schedulers for \textbf{Microservices} applications. Modeling inter-dependencies between services \& strategies to improve performance and resource utilization in shared clusters. Currently developing extensions to \textbf{Kubernetes} in \textbf{golang} to work better with DevOps pipelines in public clouds.}
         \resumeItem{Lead student - IBM CAS Fellowship Project}
-          {Lead a team of three to work with IBM cloud team to identify reliablity issues in their microservices deployments.}
+          {Lead a team of three to work with IBM cloud for identifying reliability issues in their microservices deployments. 
+          }
         \resumeItem{Teaching Assistant - Computer Networks and Engineering Design Studio}
-          {Each of the courses has more than 80 third year udergrads enrolled. Involved in creating assignment, exams and conducting recitation sessions.}
+          {Each of the courses has more than 80 third year undergrads enrolled. Involved in creating assignment, exams and conducting recitation sessions.}
       \resumeItemListEnd
 
     \resumeSubheading
       {Siemens}{Bangalore, India}
       {Systems Software Engineer}{July 2015 - July 2017}
       \resumeItemListStart
-        \resumeItem{Angiography}
-          {TensorFlow is an open source software library for numerical computation using data flow graphs; primarily used for training.}
+        \resumeItem{System Control Unit for Siemens Artis Zeego}
+          {Part of a 15 member team working on real-time control software for x-ray systems. Control system contains more than 600k lines of \textbf{C++} code and had strict coding requirements to ensure safety standards of the product. Solved more than 60 production issues and implemented 13 new features in the product. Spot award was given as an appreciation for quick adaption into product domain.}
         \resumeItem{X-ray Generator Simulation}
-          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines, as well as a set of language-specific SDKs for constructing pipelines and runners.}
-        \resumeItem{Touch based interface for collimeter}
-         {}
+          {Started as a personal side project and meant to provide a software based simulation to replace costly hardware solution used for x-ray testing. The simulator is built in \textbf{C++} and uses CANOPEN network stack, control state machine to simulate actions of a generator. It is now integrated into automated build process and used for daily testing replacing hardware simulator.}
+         \resumeItem{CANOPEN network stack}
+          {Control area network is primarily used for real time communication between safety critical components in a control system. CANOPEN is standard protocol specification for CAN. I implemented CANOPEN network stack for communication between x-ray switch and generator in \textbf{C++}.}       
       \resumeItemListEnd
 
     \resumeSubheading
       {SanDisk}{Bangalore, India}
       {Graduate Intern}{Jan 2015 - June 2015}
       \resumeItemListStart
-        \resumeItem{SSD Simulator For Interation testing}
-          {Service for sending email, push and in-app notifications. Involved in features such as delivery time optimization, tracking, queuing and A/B testing. Built an internal app to run batch campaigns for marketing etc.}
-        \resumeItem{Develop Enviroment for FTL in Linux }
-          {Bulk data processing and injection service from Hadoop to Cassandra and provides a thin REST layer on top for serving offline computed data online.}
+        \resumeItem{Firmware Validation framwork for Flash Translation Layer}
+          {Implemented a test framwork in c++ to simulate solid state drives for testing device frimware.}
       \resumeItemListEnd
 
   \resumeSubHeadingListEnd
 
 
 %-----------PROJECTS-----------------
-\section{Projects}
+\section{Recent Projects}
   \resumeSubHeadingListStart
     \resumeSubItem{Energy Mangement System for Android Kernel}
-      {Open source python library for financial data analysis and machine learning for finance.}
-    \resumeSubItem{REST API Library Over Named Data Networking}
-      {Data Visualization of Git Log data using D3 to analyze project trends over time.}
+      {Implemented new addtions to android kernel 3.4 to enable maditory access control based on energy usage. Mobile phone users can assain energy credits to apps and our system will enforce those credits based on available battary life. This project is implemented as a \textbf{C code inside android kernel}.}
+    \resumeSubItem{REST Framework Over Named Data Networking}
+      {Named data netwoking(NDN) is to route data based on name rather than IP address. In this project, we implemented a REST Framework for microservices applications to run existing applications on NDN without much changes and take advantage of NDN features. It is implemented in \textbf{C++ and Python}. See the code at \textbf{\href{https://github.com/asystemsguy/Microservices-over-NDN}{https://github.com/asystemsguy/Microservices-over-NDN.}}
+      }
     \resumeSubItem{MPI Cluster Network Simulator Using Linux Traffic Control}
-      {Music and Movie recommender systems using collaborative filtering on public datasets.}
-    \resumeSubItem{Cluster Scheduler for Federated Clusters}
-      {Book that gives step by step instructions on setting up developer environment on Mac OS.}
-  \resumeSubHeadingListEnd
+      {In this project, network properties such as delay, jitter, packet loss in a virtual cluster network are simulated using Linux Kernel Traffic module.Its implemented in \textbf{Python}, See the code at \textbf{\href{ https://github.com/asystemsguy/MPI-network-simulator}{https://github.com/asystemsguy/MPI-network-simulator.}}}
+ \resumeSubHeadingListEnd
 
 %-----------AWARDS--------------------
 \section{Awards}
   \resumeSubHeadingListStart
     \resumeSubItem{Innovation Ambassador - Siemens - 2016}
-      {Open source python library for financial data analysis and machine learning for finance.}
+      {Awarded for proposing and implementing a prototype which shown business impact for the company.}
     \resumeSubItem{Purskar Award - Siemens - 2015}
-      {Data Visualization of Git Log data using D3 to analyze project trends over time.}
+      {Awarded as a reconization for quick adption into working domain and contributions.}
   \resumeSubHeadingListEnd
 
+%--------PUBLICATIONS------------------
+\section{Publications}
+  \resumeSubHeadingListStart
+    \resumeSubItem {Supporting Microservice Evolution} {Published in 33rd IEEE International Conference on Software Maintenance and Evolution. See \textbf{\href{http://ieeexplore.ieee.org/abstract/document/8094458}{http://ieeexplore.ieee.org/abstract/document/8094458}.} acceptance rate 22\%.
+    }
+  \resumeSubHeadingListEnd
 %--------PROGRAMMING SKILLS------------
 \section{Skills}
   \resumeSubHeadingListStart
     \item{
-      \textbf{Programming Languages}{: C++, Go, Python }
+      \textbf{Programming Languages}{: C/C++, Go, Python }
       \hfill
       }
     \item{
-    \textbf{Technologies}{: Cloud(AWS,Google cloud, IBM cloud), Kubernetes, Docker, GCE}
+    \textbf{Technologies}{: Google cloud, Kubernetes, Docker}
     }
  \resumeSubHeadingListEnd
 
