@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Harshavardhan Kadiyala</title>
+    <link>http://harsha.ca/tags/</link>
+    <description>Recent content in Tags on Harshavardhan Kadiyala</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 02 Nov 2019 20:00:01 -0700</lastBuildDate>
+    
+	<atom:link href="http://harsha.ca/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>untagged</title>
+      <link>http://harsha.ca/tags/untagged/</link>
+      <pubDate>Sat, 02 Nov 2019 20:00:01 -0700</pubDate>
+      
+      <guid>http://harsha.ca/tags/untagged/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

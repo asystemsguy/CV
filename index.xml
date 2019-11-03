@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Harshavardhan Kadiyala</title>
+    <link>http://harsha.ca/</link>
+    <description>Recent content on Harshavardhan Kadiyala</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 02 Nov 2019 20:00:01 -0700</lastBuildDate>
+    
+	<atom:link href="http://harsha.ca/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Example</title>
+      <link>http://harsha.ca/posts/example/</link>
+      <pubDate>Sat, 02 Nov 2019 20:00:01 -0700</pubDate>
+      
+      <guid>http://harsha.ca/posts/example/</guid>
+      <description>Testing</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://harsha.ca/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://harsha.ca/about/</guid>
+      <description>About Me Hello , I am a research masters student in Computer engineering department of The University of British Columbia, Vancouver, Canada.
+I work as a research assistant in The Reliable, Secure, and Sustainable Software Lab with Dr Julia Rubin on topics like Distributed systems, Cloud-native architectures(Microservices) and Android kernel.
+Before coming to UBC, I worked on Distributed embedded systems with Siemens in there advanced therapies division and with Flash Translation layer team at SanDisk.</description>
+    </item>
+    
+  </channel>
+</rss>
